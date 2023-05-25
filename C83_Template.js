@@ -57,7 +57,7 @@ function update()
 
     */
 
-    var maxNumber = Math. .apply(Math, age);
+    var maxNumber = Math.max.apply(Math, age);
     console.log("A maior idade é: ", maxNumber);
 
     /*
@@ -69,6 +69,6 @@ function update()
 
     */
 
-    var minNumber = Math. .apply(Math, age);
+    var minNumber = Math.min.apply(Math, age);
     console.log("A menor idade é: ",  minNumber);
 }
